@@ -1,0 +1,157 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsumindoAPIGoogle/1.0.0": {
+        "dependencies": {
+          "Core.Google.GData.Extensions": "1.0.2",
+          "Google.Apis.Sheets.v4": "1.54.0.2371",
+          "Google.Gdata.Client.Core": "1.0.2"
+        },
+        "runtime": {
+          "ConsumindoAPIGoogle.dll": {}
+        }
+      },
+      "Core.Google.GData.Extensions/1.0.2": {
+        "dependencies": {
+          "Google.Gdata.Client.Core": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Core.Google.GData.Extensions.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Google.Apis/1.54.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.54.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.54.0.0",
+            "fileVersion": "1.54.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.54.0": {
+        "dependencies": {
+          "Google.Apis": "1.54.0",
+          "Google.Apis.Core": "1.54.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.54.0.0",
+            "fileVersion": "1.54.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.54.0.0",
+            "fileVersion": "1.54.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.54.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.54.0.0",
+            "fileVersion": "1.54.0.0"
+          }
+        }
+      },
+      "Google.Apis.Sheets.v4/1.54.0.2371": {
+        "dependencies": {
+          "Google.Apis": "1.54.0",
+          "Google.Apis.Auth": "1.54.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {
+            "assemblyVersion": "1.54.0.2371",
+            "fileVersion": "1.54.0.2371"
+          }
+        }
+      },
+      "Google.Gdata.Client.Core/1.0.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Gdata.Client.Core.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsumindoAPIGoogle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.Google.GData.Extensions/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R+D2s34TRKDICD1OPGexvoPXPX2KAGYDbk6PcMndiGWwlqEFwDQpZH16W5+Da72THWgbjo2mrvtkf2NZkWADbg==",
+      "path": "core.google.gdata.extensions/1.0.2",
+      "hashPath": "core.google.gdata.extensions.1.0.2.nupkg.sha512"
+    },
+    "Google.Apis/1.54.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-53PujXOst4JNibnySRlOzduBwr3wt4hiLPbVCpZs/P2G8waltIW3cmma6sG7lTaW9ag/3T6MtIgt/uFtWBBkwA==",
+      "path": "google.apis/1.54.0",
+      "hashPath": "google.apis.1.54.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.54.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gVWia+KE7MLBTiAaDG//TociR6lE0/reEXx+go065L/w20skB2Ib58vnp4iGPaLehwY8ib8XmXy3P1n/Fr5Y4A==",
+      "path": "google.apis.auth/1.54.0",
+      "hashPath": "google.apis.auth.1.54.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.54.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NKeTTKCttOQrLUCyLyRo5m53b2mG8ymJaiL+i1fR6w8TrrHD31ixPGO+BlwQs9OLuLd/p8BKkSdSaNGjKw5rkA==",
+      "path": "google.apis.core/1.54.0",
+      "hashPath": "google.apis.core.1.54.0.nupkg.sha512"
+    },
+    "Google.Apis.Sheets.v4/1.54.0.2371": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KO6I0eafvWkvgh3idxJTjeBotl9lHcbJs0AuerKJ0mua//vRyu8fgl74/aeIguIUN/2WN8D0c3dakAIzo1wAnA==",
+      "path": "google.apis.sheets.v4/1.54.0.2371",
+      "hashPath": "google.apis.sheets.v4.1.54.0.2371.nupkg.sha512"
+    },
+    "Google.Gdata.Client.Core/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-buK4rcyqX+JnQwIrqX1XZ1jz30mnkeWUopIBUoNKuYt2TimzHbYj8itk2kdyR3xsXzlBjRFCpsfPLKeC0chxfg==",
+      "path": "google.gdata.client.core/1.0.2",
+      "hashPath": "google.gdata.client.core.1.0.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}
